@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Player {
-    ArrayList<String> lineTable;
-    ArrayList<Node> stations;
+    public ArrayList<String> lineTable;
+    public ArrayList<Node> stations;
     double walkingSpeed;
     double health;
     double pocket;

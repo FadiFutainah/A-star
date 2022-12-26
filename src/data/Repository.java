@@ -4,6 +4,7 @@ import game.Game;
 import player.Player;
 import structure.Edge;
 import structure.Node;
+import ui.Presenter;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -33,6 +34,7 @@ public class Repository {
         while (loader.hasNext()) {
             String ch = loader.next();
             switch (ch) {
+                case "M" -> game.setPresenter(scanPresenter());
                 case "N" -> game.setPlayer(scanPlayer());
                 case "E" -> nodes.get(nodes.size() - 1).edges.add(scanEdge());
                 case "D", "S", "P" -> nodes.add(scanNode());
@@ -42,6 +44,12 @@ public class Repository {
         game.player.setLineTable(lineTable);
         loader.close();
         return game;
+    }
+
+    private Presenter scanPresenter() {
+        int w = loader.nextInt();
+        int h = loader.nextInt();
+        return new Presenter(w, h);
     }
 
     private Player scanPlayer() {
@@ -65,8 +73,10 @@ public class Repository {
     }
 
     private Node scanNode() {
+        int x = loader.nextInt();
+        int y = loader.nextInt();
         double tiktokCallingTime = loader.nextDouble();
         double taxiCallingTime = loader.nextDouble();
-        return new Node(tiktokCallingTime, taxiCallingTime);
+        return new Node(x, y, tiktokCallingTime, taxiCallingTime);
     }
 }
