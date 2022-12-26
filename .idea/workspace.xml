@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287e7670-e06a-4f14-a9ac-7babffb90f6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/lvl1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structure/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structure/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structure/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Presenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/Colors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structure/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structure/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structure/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Presenter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

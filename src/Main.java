@@ -4,7 +4,7 @@ import game.Game;
 public class Main {
     public static void main(String[] args) {
         Repository gameRepository = new Repository();
-        Game game = gameRepository.loadGame("lvl1");
+        Game game = gameRepository.loadGame("test");
         game.start();
     }
 }
